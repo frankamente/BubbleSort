@@ -18,7 +18,7 @@ public class BubbleSort {
         }
     }
 
-    private int[] sort(){
+    public int[] sort(){
         int[] sortedList = messyList.clone();
         for (int i=sortedList.length; i>1; i--){
             for (int j=0; j<(i-1); j++){
